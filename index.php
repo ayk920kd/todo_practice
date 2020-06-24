@@ -5,12 +5,11 @@
 
 // データの取得
 
-require_once('Models/Task.php');
-require_once('function.php');
+    require_once('Models/Task.php');
+    require_once('function.php');
 
-$task = new Task();
-$tasks = $task->getAll();
-// var_dump($tasks);
+    $task = new Task();
+    $tasks = $task->getAll();
 
 ?>
 <!DOCTYPE html>
